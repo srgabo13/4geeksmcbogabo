@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Buscaminas</title>
+  	<meta charset="utf-8">
+  	
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+<div class="row">
+<div class="col-md-12" style="background-color:lightgray; ;text-align: center; " ><h1 style="color: orange;">Este es mi Buscabombas</h1>
+
+</div>
+</div>
+</header>
+
+<content>
+<center>
+<div class="row" id="row1">
+<div class="col-md-4" style="background-color:lightblue">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div1" onclick="myFunction()" style="background-color:black;float: left; border:groove;">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div2" onclick="mFunction()" style="background-color:black;float: left; border:groove;" >
+<br>
+<br>
+<br>
+<br>
+<br></div>
+
+<div class="col-md-1" data-target="#Modal" data-toggle="modal" id="div3" onclick="funcion3()" style="background-color:black; border:groove; ">
+<br>
+<br>
+<br>
+<br>
+<br>
+
+			<div id="Modal" class="modal fade" role="dialog">
+					<div class="modal-content" >
+                                <div class="modal-header" style="background-color: black">
+                                <div class="row"  style="background-color: red">
+                                    <div class="alert alert-caution" align="center">
+                                          <strong>Booommmm!!!!</strong>  GAME OVER    </div>
+                                      <div class="col-md-2">
+                                      </div>
+                                      
+                                      <div class="col-md-8">
+                                    <h2>Has Encontrado la bomba y Exploto!!</h2>
+                                    <a href="buscaminas.html"><center><button type="button"  class="btn btn-md" style="background-color: white;" ><b style="color: red; align-content: center;">Empezar de Nuevo</b></center></button></a>
+                                    <br>
+                                    </div>
+                                    <div class="col-md-2">
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            
+
+
+
+<div class="col-md-5" style="background-color:lightblue;">
+<br>
+<br>
+<br>
+<br>
+<br>
+</center>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-md-4" style="background-color:lightblue;">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div4" onclick="funcion4()" style="background-color:black; border:groove;" >
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div5" onclick="funcion5()" style="background-color:black;  border:groove;">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div6" onclick="funcion6()" style="background-color:black;border:groove;" >
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-5" style="background-color:lightblue;">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+
+</div>
+
+<div class="row">
+<div class="col-md-4" style="background-color:lightblue">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div7" onclick="funcion7()" style="background-color:black;border:groove;" >
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div8" onclick="funcion8()" style="background-color:black; border:groove;">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-1" id="div9" onclick="funcion9()" style="background-color:black;border:groove;" >
+<br>
+<br>
+<br>
+<br>
+<br></div>
+<div class="col-md-5" id= "div10" style="background-color:lightblue">
+<br>
+<br>
+<br>
+<br>
+<br></div>
+</div>
+
+</content>
+
+<div class="row">
+<div class="col-md-12" style="background-color:green;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>	
+<br>
+<br>
+<br>	
+</div>
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+    document.getElementById("div1").style.background = "red";
+}
+function mFunction() {
+    document.getElementById("div2").style.background= "red";
+}
+function funcion3() {
+   var myprog = document.getElementById("div3");
+  myprog.style="background-image:url(imagenes/bomba1.png);border:groove"
+  
+}
+function funcion4() {
+    document.getElementById("div4").style.background = "red";
+}
+function funcion5() {
+    document.getElementById("div5").style.background = "red";
+}
+function funcion6() {
+    document.getElementById("div6").style.background = "red";
+}
+
+function funcion7() {
+    document.getElementById("div7").style.background = "red";
+}
+
+function funcion8() {
+    document.getElementById("div8").style.background = "red";
+}
+
+function funcion9() {
+    document.getElementById("div9").style.background = "red";
+}
+</script>
+
+
+</body>
+</html>
